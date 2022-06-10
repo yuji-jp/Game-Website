@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planet Hunters</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Exo:wght@500;600;700&family=Noto+Sans+JP:wght@500;900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+  <link rel="stylesheet" href="./css/destyle.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+  <!--loading-->
+  <div class="loading">
+    <div class="loading-animation">
+      <div class="orbit-spinner">
+        <div class="orbit"></div>
+       <div class="orbit"></div>
+        <div class="orbit"></div>
+      </div>
+      <p class="loading-text"><img src="./assets/img/loading.svg" alt="loading"></p>
+    </div>
+  </div>
+  <!--loading-->
+
+  <!--bgParallax-->
+  <div class="bgParallax">
+    <video src="./assets/video/bg_movie.mp4" class="bgParallax-video" playsinline muted autoplay loop></video>
+  </div>
+  <!--bgParallax-->
+
+  <!--header-->
+
+  <header id="header">
+    <div class="header-inner">
+      <h1 class="header-logo">
+        <a href="index.html">fantasy game</a>
+      </h1>
+
+      <nav class="navi">
+        <ul class="navi-list">
+          <li class="navi-item"><a href="#story">story</a></li>
+          <li class="navi-item"><a href="#trailer">trailer</a></li>
+          <li class="navi-item navi-ctn"><a href="#" class="btn btn-small">play now</a></li>
+        </ul>
+
+        <div class="navi-audio">
+          <div class="audioSwitch">
+            <button id="js-audio-play"><span class="audioSwitch-text">soud off</span>
+              <span class="audioSwitch-icon material-icons-round">volume_up</span></button>
+          </div>
+          <audio id="js-audio" loop>
+            <source src="./assets/audio/cinematic-melody-main-9785.mp3" type="audio/mp3">
+          </audio>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!--/header-->
+
+  <!--fv-->
+  <section id="fv">
+    <div class="fv-titleArea">
+      <div class="fv-label">vr game</div>
+      <h2 class="fv-title">planet<br>hunter</h2>
+      <div class="fv-subTitle">惑星を奪還せよ</div>
+      <div class="fv-btn"><a href="#" class="btn">play now</a></div>
+    </div>
+    <div class="newsBox">
+      <p><span class="newsBox-date">2030.02.20</span><span class="newsBox-text">バージョン5.6リリース：アバター・アイ</span></p>
+    </div>
+    <div class="scrollDown"><span>scroll</span></div>
+  </section>
+
+  <!--/fv-->
+
+  <!--main-->
+  <main class="contents">
+    <!--story-->
+    <section class="story" id="story">
+      <div class="container">
+        <div class="story-body">
+          <div class="story-item">
+            <div class="story-desc">
+              <div class="section-title">story</div>
+              <h3 class="story-title">奪われた故郷の星を取り戻せ<br>壮大なSFファンタジー</h3>
+              <p class="story-text">
+                銀河歴222年、惑星ネコチャンは、ボスネコ将軍の率いる軍の反乱により完全に制圧された。将軍の側近マンチカンは軍政府に従わない人間を辺境の星ニャゴーへ強制的に追放。食料や資源の乏しいニャゴーでは多くの難民が発生し飢餓に苦しんでいた。ニャゴーのスラム街で育った孤児の姉弟がいた。姉のミケと弟のタマは母親をボスネコ将軍に殺された事実を知る。母の復讐のため、そして故郷の惑星ネコチャンを奪還すべく、ミケとタマはいま行動に出る！
+              </p>
+            </div>
+            <div class="story-img"><img src="./assets/img/story01.webp" alt=""></div>
+          </div>
+          <div class="story-item">
+            <div class="story-desc">
+              <h3 class="story-title">隠された陰謀を暴け<br>
+                衝撃的な事実に驚愕</h3>
+              <p class="story-text">
+                ミケとタマはネコジャラシ作戦により軍政府の最新鋭の小型船チュールを奪うことに成功。チュールのハイテンションワープ星間航行により惑星ネコチャンへあとわずか３時間で到着という時、小惑星帯アビシニアンで謎の救難信号を受信する。意外にも信号の発信源はボスネコ将軍だった。彼は今にも絶えそうなかすれた声で「私はおまえたちミケとタマの父親なのだ」と語る。その瞬間、ミケとタマの育ての親同然で仲間のはずのホワイトオッドアイがタマの背中を刀で切り裂いたのだった......
+              </p>
+            </div>
+            <div class="story-img"><img src="./assets/img/story02.webp" alt=""></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/story-->
+
+    <!--cta1-->
+    <section id="cta" class="cta1">
+      <div class="container">
+        <div class="cta-body">
+          <div class="cta-title">ARE YOU READY TO FIGHT?</div>
+          <div class="cta-btn"><a href="#" class="btn ">play now</a></div>
+        </div>
+      </div>
+    </section>
+    <!--/cta1-->
+
+    <!--trailer-->
+    <section id="trailer">
+      <div class="container">
+        <div class="trailer-body">
+          <div class="section-title section-title2">trailer</div>
+          <iframe width="100%" height="560" src="https://www.youtube.com/embed/RO_RRKTYzUY" title="YouTube video player" 
+          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+        </div>
+      </div>
+    </section>
+    <!--/trailer-->
+
+    <!--cta2-->
+    <section id="cta" class="cta2">
+      <div class="container">
+        <div class="cta-body">
+          <div class="cta-title">ARE YOU READY TO FIGHT?</div>
+          <div class="cta-btn"><a href="#" class="btn ">play now</a></div>
+        </div>
+      </div>
+    </section>
+    <!--/cta2-->
+
+  </main>
+  <!--/main-->
+
+    <!--footer-->
+    <footer id="footer">
+      <div class="footer-inner">
+        <div class="snsShare">
+          <ul class="snsShare-list">
+            <li class="snsShare-item"><a class="twitter" href="#"><i class="fab fa-twitter fa-lg"></i></a></li>
+            <li class="snsShare-item"><a class="facebook" href="#"><i class="fab fa-facebook-f fa-lg"></i></a></li>          </ul>
+        </div>
+        <div class="footer-copyright">&copy;fantasy games</div>
+      </div>
+    </footer>
+    <!--/footer-->
+
+    <div class="spCta">
+      <a href="#" class="btn">play now</a>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
